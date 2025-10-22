@@ -1,0 +1,7 @@
+path: /content/football_yolo/football_yolo
+train: images/train
+val : images/val
+
+names:
+  0: ball
+  1: player
