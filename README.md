@@ -4,6 +4,31 @@
 
 This project implements a real-time football player detection application using YOLOv5. It identifies and tracks players on the field from video footage. The application utilizes existing video datasets with corresponding JSON annotations to train a YOLOv5 model for player detection. The `create_yolo_format_dataset.py` script is used to convert the dataset into the format required by YOLOv5.
 
+
+![demo](src/video_demo/demo.gif)
+<div align="center">*video demo*</div>
+
+## Tensorboard
+![image](src/tensorboard/metrics.png)
+<div align="center">*metrics.png*</div>  
+
+![image](src/tensorboard/train.png)
+<div align="center">*train.png*</div>
+
+![image](src/tensorboard/val.png)
+<div align="center">*val.png*</div>
+
+![image](src/tensorboard/x.png)
+<div align="center">*x.png*</div>
+
+## Train batch
+![image](src/train_batch/test.jpg)
+![image](src/train_batch/train_batch0.jpg)
+![image](src/train_batch/train_batch1.jpg)
+![image](src/train_batch/train_batch2.jpg)
+
+
+
 ## Features and Functionality
 
 *   **Real-time Player Detection:** Employs YOLOv5 for fast and accurate player detection in video streams.
